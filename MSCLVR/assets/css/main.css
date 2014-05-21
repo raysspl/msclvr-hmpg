@@ -126,8 +126,6 @@ border: 0px solid transparent;
     padding: 20px;
 }
 
-
-
 hr {
     position: relative;
     border: none;
@@ -153,7 +151,7 @@ a img {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Roboto Slab", serif;
     font-weight: 300;
     color: #333;
 }
@@ -185,7 +183,7 @@ em {
 pre {
     background: #ebebeb;
     border: none;
-    font-family: "Monaco";
+    font-family: "Roboto Slab", serif;
     font-size: 16px;
     color: #666;
     padding: 20px;
@@ -418,11 +416,12 @@ span.money {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider3.2.jpg')
+	background-image: url('../img/bg/divider3.2.jpg');
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider1.1.jpg')
+	background-image: url('../img/bg/divider1.1.jpg');
+    /*background-image: url('../img/bg/divider2.jpg');*/
 }
 
 .divider3 {
@@ -437,7 +436,7 @@ span.money {
 }
 
 .divider6 {
-	background-image: url('../img/bg/divider7.jpg')
+	background-image: url('../img/bg/divider7.jpg');
 }
 
 
@@ -475,7 +474,7 @@ span.money {
 }
 
 .service-active p {
-	font-family: 'Lato', sans-serif;
+	font-family: "Roboto Slab", serif;
 	padding-top: 10px;
 }
 
