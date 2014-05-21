@@ -12,7 +12,7 @@ textarea {
 
 body {
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.4; 
 }
 
 /*
@@ -262,6 +262,10 @@ span.lvr {
     color: #e24c9a;
 }
 
+span.money {
+    color: #A4BD99;
+}
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -399,12 +403,14 @@ span.lvr {
 
 .textdivider h1 {
 	padding-top: 70px;
-	color: white;
+	/*color: #e24c9a;*/
+    color: white;
 	font-size: 40px;
 }
 
 .textdivider p {
-	color: white;
+	/*color: #e24c9a;*/
+    color: white;
 	font-size: 25px;
 }
 
@@ -412,24 +418,26 @@ span.lvr {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	background-image: url('../img/bg/divider3.2.jpg')
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg')
+	background-image: url('../img/bg/divider1.1.jpg')
 }
 
 .divider3 {
-	background-image: url('../img/bg/divider3.jpg');
+	background-image: url('../img/bg/divider3.3.jpg');
 	margin-top: 0px;
+    opacity: 1.1;
 }
 
 .divider4 {
-	background-image: url('../img/bg/divider4.jpg')
+	background-image: url('../img/bg/divider4.8.jpg');
+    opacity: 1.1;
 }
 
 .divider6 {
-	background-image: url('../img/bg/divider6.jpg')
+	background-image: url('../img/bg/divider7.jpg')
 }
 
 
