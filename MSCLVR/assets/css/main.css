@@ -256,6 +256,10 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+i.fa-lg {
+    color: #e24c9a;
+}
+
 span.lvr {
     color: #e24c9a;
 }
